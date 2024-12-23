@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech News - My Blog</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>My Blog</h2>
+        <ul class="nav-menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../about/about.html">About</a></li>
+            <li><a href="../posts.html">Posts</a></li>
+            <li><a href="../../contact/contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Tech News</h1>
+        </header>
+        <main>
+            <h2>All Tech News</h2>
+            <div id="tech-news-posts">
+                <!-- Markdown 파일에서 로드된 포스트가 표시됩니다 -->
+            </div>
+        </main>
+    </div>
+    <script src="../../scripts.js"></script>
+    <script>
+        loadPostsBySection("tech-news", "tech-news-posts");
+    </script>
+</body>
+</html>

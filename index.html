@@ -1,85 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Leehan32's Blog</title>
-    <style>
-        /* 전체 레이아웃 */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        /* 헤더 스타일 */
-        .header {
-            background-color: #333;
-            padding: 1rem;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        /* 메뉴 스타일 */
-        .menu {
-            display: flex;
-            gap: 20px;
-        }
-
-        .menu a {
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-
-        /* 메인 컨텐츠 영역 */
-        .main-content {
-            display: flex;
-            min-height: 100vh;
-        }
-
-        /* 사이드바 (목차) */
-        .sidebar {
-            width: 250px;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-
-        /* 컨텐츠 영역 */
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Leehan32's Blog</h1>
-        <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#posts">Posts</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <div class="sidebar">
+        <h2>My Blog</h2>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about/about.html">About</a></li>
+            <li><a href="posts/posts.html">Posts</a></li>
+        </ul>
     </div>
-
-    <div class="main-content">
-        <div class="sidebar">
-            <h2>목차</h2>
-            <ul>
-                <li><a href="#section1">첫 번째 글</a></li>
-                <li><a href="#section2">두 번째 글</a></li>
-                <li><a href="#section3">세 번째 글</a></li>
-            </ul>
-        </div>
-
-        <div class="content">
-            <section id="section1">
-                <h2>첫 번째 글</h2>
-                <p>여기에 컨텐츠가 들어갑니다.</p>
-            </section>
-        </div>
+    <div class="content">
+        <header>
+            <h1>Welcome to My Blog</h1>
+        </header>
+        <main>
+            <p>This is the home page of your blog!</p>
+        </main>
     </div>
 </body>
 </html>
