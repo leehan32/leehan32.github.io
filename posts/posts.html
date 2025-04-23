@@ -51,11 +51,22 @@
     <div class="content">
         <header>
             <h1>Posts</h1>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
         </header>
         <main>
-            <h2>Select a Category</h2>
+            <div class="search-container">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="포스트 검색...">
+                </form>
+            </div>
+            
+            <div id="search-results">
+                <!-- 검색 결과는 여기에 표시됩니다 -->
+            </div>
+            
+            <h2>카테고리 선택</h2>
             <div class="section-menu" id="section-menu">
-                <!-- Sections with post counts will be loaded here dynamically -->
+                <!-- 섹션은 JavaScript로 동적 로드됩니다 -->
             </div>
         </main>
     </div>
