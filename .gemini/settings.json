@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/github",
+        "--key",
+        "596c5005-1045-4509-b02e-59782464ae03"
+      ]
+        }
+    }
+}

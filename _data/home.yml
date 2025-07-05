@@ -1,0 +1,25 @@
+navbar_entries:
+  - title: Home
+    url: /
+
+  - title: About
+    url: /about/
+
+  - title: Timeline
+    url: /timeline/
+
+project_entries:
+  - title: 한복 가상피팅 애플리케이션
+    url: hanbok-virtual-fitting-app
+    desc: 사용자가 업로드한 자신의 사진에 다양한 한복을 입혀볼 수 있는 가상 피팅 애플리케이션
+
+  - title: LLM 쿼리 기반 대시보드 생성기
+    url: llm-query-dashboard-generator
+    desc: LLM을 활용해 자연어 질문으로부터 SQL 쿼리를 생성하고 시각화하는 툴
+
+footer_entries:
+  - title: github
+    url: https://github.com/leehan32
+
+  - title: email
+    url: mailto:dkdleldml12@gmail.com
